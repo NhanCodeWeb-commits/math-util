@@ -3,7 +3,7 @@ package com.neo.mathutil.core;
 public class MathUtil {
 
     public static long getFactorial(int n) {
-        long result = 20;
+        long result = 1;
 
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid n");
